@@ -67,5 +67,3 @@ export EDITOR=subl
 
 # Disable spring
 # export DISABLE_SPRING=1
-
-AWS='ABCDEF+c2L7yXeGvUyrPgYsDnWRRC1AYEXAMPLE'
