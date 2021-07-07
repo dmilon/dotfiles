@@ -38,6 +38,8 @@
   # Removes a file from the index
   unstage = reset HEAD --
 
+  gcm = git commit -m
+
 [help]
   autocorrect = 1
 
@@ -46,6 +48,10 @@
 
 [branch "master"]
   mergeoptions = --no-edit
+
+[user]
+  email = 37899667+dmilon@users.noreply.github.com
+  name = Damien Milon
 
 [pull]
   rebase = false

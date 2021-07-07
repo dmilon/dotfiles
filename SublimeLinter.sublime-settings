@@ -1,0 +1,12 @@
+{
+  "paths": {
+    "linux": [
+      "~/.rbenv/shims"
+    ],
+    "osx": [
+      "~/.rbenv/shims"
+    ]
+  },
+  "statusbar.show_active_linters": false,
+  "highlights.start_hidden": false,
+}
