@@ -68,4 +68,4 @@ export EDITOR=subl
 # Disable spring
 # export DISABLE_SPRING=1
 
-aws_secret='ABCDEF+c2L7yXeGvUyrPgYsDnWRRC1AYEXAMPLE'
+SECRET='ABCDEF+c2L7yXeGvUyrPgYsDnWRRC1AYEXAMPLE'
