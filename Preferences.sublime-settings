@@ -51,4 +51,5 @@
 	"light_color_scheme": "Packages/Color Scheme - Default/Sixteen.sublime-color-scheme",
   "remember_workspace": false,
   "open_files_in_new_window": "always",
+  "SublimeLinter.linters.rubocop.disable": true,
 }
