@@ -13,11 +13,14 @@ alias lla='ls -hlA --group-directories-first'
 # Other aliases
 alias c='clear'
 alias e='exit'
+alias up='sudo apt update && sudo apt upgrade -y'
 
 # Ruby on Rails web dev
 alias sq='sidekiq'
 alias wds='webpack-dev-server'
 alias rcf='redis-cli FLUSHALL'
+alias sca='scalingo'
+alias src='scalingo run rails c'
 
 # Python data science
 alias py='python'

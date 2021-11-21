@@ -7,6 +7,6 @@
       "~/.rbenv/shims"
     ]
   },
-  "statusbar.show_active_linters": false,
-  "highlights.start_hidden": false,
+  // "statusbar.show_active_linters": false,
+  // "highlights.start_hidden": false,
 }

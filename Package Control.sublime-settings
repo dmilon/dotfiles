@@ -27,7 +27,6 @@
 		"SublimeLinter",
 		"SublimeLinter-contrib-standard",
 		"SublimeLinter-contrib-standardrb",
-		"SublimeLinter-rubocop",
 		"WakaTime",
 	],
 }

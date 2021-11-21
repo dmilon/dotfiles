@@ -52,4 +52,15 @@
   "remember_workspace": false,
   "open_files_in_new_window": "always",
   "SublimeLinter.linters.rubocop.disable": true,
+	/*"font_size": 11,*/
+	/*"font_size": 13,*/
+	/*"font_size": 13,*/
+	/*"font_size": 17,*/
+	/*"font_size": 13,*/
+	/*"font_size": 18,*/
+	/*"font_size": 11,*/
+	/*"font_size": 13,*/
+	/*"font_size": 12,*/
+	/*"font_size": 19,*/
+	/*"font_size": 15,*/
 }

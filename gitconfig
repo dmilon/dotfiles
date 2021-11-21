@@ -11,7 +11,7 @@
 
 [core]
   pager = less -FRSX
-  editor = subl
+  editor = subl -n -w
 
 [alias]
   co = checkout
@@ -41,7 +41,7 @@
   gcm = git commit -m
 
 [help]
-  autocorrect = 1
+	autocorrect = 20
 
 [push]
 	default = simple
@@ -50,8 +50,8 @@
   mergeoptions = --no-edit
 
 [user]
-  email = 37899667+dmilon@users.noreply.github.com
+	email = 37899667+dmilon@users.noreply.github.com
   name = Damien Milon
 
-[pull]
-  rebase = false
+# [pull]
+#   rebase = false
