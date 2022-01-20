@@ -62,7 +62,7 @@ export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
 export BUNDLER_EDITOR=subl
-export EDITOR=subl
+# export EDITOR=subl
 
 # Disable spring
 # export DISABLE_SPRING=1
