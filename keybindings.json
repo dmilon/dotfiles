@@ -14,5 +14,25 @@
     "key": "cmd+shift+v",
     "command": "pasteAndIndent.action",
     "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+0",
+    "command": "-workbench.action.toggleEditorGroupLayout"
+  },
+  {
+    "key": "shift+alt+3",
+    "command": "workbench.action.splitEditorUp"
+  },
+  {
+    "key": "shift+alt+2",
+    "command": "workbench.action.splitEditorRight"
+  },
+  {
+    "key": "shift+alt+2",
+    "command": "-workbench.action.splitEditor"
+  },
+  {
+    "key": "shift+alt+0",
+    "command": "workbench.action.editorLayoutSingle"
   }
 ]

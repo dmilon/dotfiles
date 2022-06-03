@@ -4,18 +4,12 @@
         "editor.tabSize": 4
     },
     "editor.detectIndentation": false,
-    "editor.fontSize": 17,
     "editor.formatOnPaste": true,
     "editor.guides.bracketPairs": true,
     "editor.bracketPairColorization.enabled": true,
     "editor.insertSpaces": true,
     "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
-    "editor.rulers":
-    [
-        80,
-        120
-    ],
     "editor.scrollBeyondLastLine": true,
     "editor.showFoldingControls": "always",
     "editor.snippetSuggestions": "top",
@@ -73,12 +67,17 @@
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
     "window.restoreWindows": "none",
-    "workbench.colorTheme": "Monokai",
     "workbench.iconTheme": "vscode-great-icons",
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.statusBar.visible": false,
-    "security.workspace.trust.startupPrompt": "always"
+    "security.workspace.trust.startupPrompt": "always",
+    "editor.wordWrap": "on",
+    "window.zoomLevel": 1,
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredDarkColorTheme": "Monokai",
+    "workbench.preferredLightColorTheme": "Solarized Light",
+    "workbench.colorTheme": "Solarized Light"
 }

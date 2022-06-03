@@ -22,7 +22,7 @@ alias sq='sidekiq'
 alias wds='webpack-dev-server'
 alias rcf='redis-cli FLUSHALL'
 alias sca='scalingo'
-alias src='scalingo run rails c'
+alias srrc='scalingo run rails c'
 
 # Python data science
 alias py='python'
@@ -33,6 +33,7 @@ alias jl='jupyter lab'
 alias gsw='git switch'
 alias gcm='git commit -m'
 alias gitsweep='git checkout -q master && git for-each-ref refs/heads/ "--format=%(refname:short)" | while read branch; do mergeBase=$(git merge-base master $branch) && [[ $(git cherry master $(git commit-tree $(git rev-parse $branch^{tree}) -p $mergeBase -m _)) == "-"* ]] && git branch -D $branch; done'
+alias gbsd='for branch in `git branch | grep -v HEAD`;do echo -e `git show --format="%ci %cr" $branch | head -n 1` \\t$branch; done | sort -r'
 
 # docker
 alias dps='docker ps'
