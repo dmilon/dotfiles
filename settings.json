@@ -1,5 +1,6 @@
 {
-    "[python]": {
+    "[python]":
+    {
         "editor.bracketPairColorization.enabled": false,
         "editor.guides.bracketPairs": false,
         "editor.tabSize": 4
@@ -11,20 +12,23 @@
     "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.renderControlCharacters": true,
-    "editor.rulers": [
+    "editor.rulers":
+    [
         80,
         120
     ],
     "editor.showFoldingControls": "always",
     "editor.snippetSuggestions": "top",
     "editor.tabSize": 2,
-    "emmet.includeLanguages": {
+    "emmet.includeLanguages":
+    {
         "erb": "html"
     },
     "emmet.showSuggestionsAsSnippets": true,
     "emmet.triggerExpansionOnTab": true,
     "explorer.confirmDelete": false,
-    "files.exclude": {
+    "files.exclude":
+    {
         "__pycache__": true,
         "_site": true,
         ".asset-cache": true,
@@ -48,7 +52,8 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    "files.watcherExclude": {
+    "files.watcherExclude":
+    {
         "**/audits/**": true,
         "**/coverage/**": true,
         "**/log/**": true,
@@ -67,7 +72,8 @@
     "python.linting.flake8Enabled": false,
     "python.linting.pylintEnabled": false,
     "python.terminal.activateEnvironment": false,
-    "ruby.lint": {
+    "ruby.lint":
+    {
         "rubocop": true
     },
     "telemetry.telemetryLevel": "off",
@@ -80,4 +86,8 @@
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.panel.defaultLocation": "right",
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredLightColorTheme": "Solarized Light",
+    "workbench.preferredDarkColorTheme": "Monokai",
+    "workbench.colorTheme": "Solarized Light"
 }
