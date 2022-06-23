@@ -74,7 +74,7 @@
     "python.terminal.activateEnvironment": false,
     "ruby.lint":
     {
-        "rubocop": true
+        "rubocop": false
     },
     "telemetry.telemetryLevel": "off",
     "window.restoreWindows": "none",
@@ -89,5 +89,6 @@
     "window.autoDetectColorScheme": true,
     "workbench.preferredLightColorTheme": "Solarized Light",
     "workbench.preferredDarkColorTheme": "Monokai",
-    "workbench.colorTheme": "Solarized Light"
+    "workbench.colorTheme": "Solarized Light",
+    "workbench.activityBar.visible": false
 }
