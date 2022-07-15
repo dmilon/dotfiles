@@ -32,6 +32,7 @@ alias jl='jupyter lab'
 # git
 alias gsw='git switch'
 alias gcm='git commit -m'
+alias gpc='gh pr create -w'
 alias gitsweep='git checkout -q master && git for-each-ref refs/heads/ "--format=%(refname:short)" | while read branch; do mergeBase=$(git merge-base master $branch) && [[ $(git cherry master $(git commit-tree $(git rev-parse $branch^{tree}) -p $mergeBase -m _)) == "-"* ]] && git branch -D $branch; done'
 alias gbsd='for branch in `git branch | grep -v HEAD`;do echo -e `git show --format="%ci %cr" $branch | head -n 1` \\t$branch; done | sort -r'
 
