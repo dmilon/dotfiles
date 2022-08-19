@@ -76,4 +76,5 @@
     "remember_workspace": false,
     "open_files_in_new_window": "always",
     "SublimeLinter.linters.rubocop.disable": true,
+    /*"font_size": 15,*/
 }

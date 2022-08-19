@@ -90,5 +90,5 @@
     "workbench.preferredLightColorTheme": "Solarized Light",
     "workbench.preferredDarkColorTheme": "Monokai",
     "workbench.colorTheme": "Solarized Light",
-    "workbench.activityBar.visible": false
+    "editor.inlineSuggest.enabled": true
 }
