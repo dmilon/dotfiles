@@ -4,7 +4,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 
 # Useful oh-my-zsh plugins for Le Wagon bootcamps
-plugins=(common-aliases git gitfast history-substring-search last-working-dir rails ruby sublime zsh-syntax-highlighting z)
+plugins=(asdf common-aliases git gitfast history-substring-search last-working-dir rails ruby sublime zsh-syntax-highlighting z)
 
 # Disable warning about insecure completion-dependent directories
 ZSH_DISABLE_COMPFIX=true
