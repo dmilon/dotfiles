@@ -11,7 +11,9 @@
 
 [core]
   pager = less -FRSX
-  editor = subl -n -w
+	# editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
+  editor = code --wait
+	ignorecase = false
 
 [alias]
   co = checkout

@@ -61,7 +61,7 @@
         "**/tmp/**": true,
         "**/vendor/**": true
     },
-    "git.enabled": false,
+    "git.enabled": true,
     "notebook.diff.ignoreMetadata": true,
     "notebook.lineNumbers": "on",
     "notebook.markup.fontSize": 13,
@@ -79,7 +79,6 @@
     "telemetry.telemetryLevel": "off",
     "window.restoreWindows": "none",
     "window.newWindowDimensions": "maximized",
-    "workbench.editor.enablePreview": true,
     "workbench.iconTheme": "vscode-great-icons",
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
@@ -90,5 +89,28 @@
     "workbench.preferredLightColorTheme": "Solarized Light",
     "workbench.preferredDarkColorTheme": "Monokai",
     "workbench.colorTheme": "Solarized Light",
-    "editor.inlineSuggest.enabled": true
+    "editor.inlineSuggest.enabled": true,
+    "emeraldwalk.runonsave": {
+      "shell" : "zsh",
+      "commands": [
+        {
+          "match": "\\.(js|jsx|ts|tsx)$",
+          "cmd": ". $HOME/.zshrc && pre-commit run eslint --files ${file} ; pre-commit run prettier --files ${file}",
+          "isAsync": true
+        },
+        {
+          "match": "\\.(rb|rake)$",
+          "cmd": ". $HOME/.zshrc && pre-commit run rubocop --files ${file}",
+          "isAsync": true
+        },
+      ]
+    },
+    "github.copilot.enable": {
+      "*": true,
+      "yaml": false,
+      "plaintext": true,
+      "markdown": false
+    },
+    "redhat.telemetry.enabled": true,
+    "terminal.external.osxExec": "iTerm.app",
 }
