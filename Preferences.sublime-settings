@@ -70,7 +70,7 @@
     "update_check": false,
     "use_tab_stops": true,
     "word_wrap": true,
-    "dark_color_scheme": "Monokai.sublime-color-scheme",
+    "dark_color_scheme": "Solarized (dark).sublime-color-scheme",
     "light_color_scheme": "Solarized (light).sublime-color-scheme",
     "remember_workspace": false,
     "open_files_in_new_window": "always",

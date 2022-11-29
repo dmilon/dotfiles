@@ -87,8 +87,8 @@
     "workbench.panel.defaultLocation": "right",
     "window.autoDetectColorScheme": true,
     "workbench.preferredLightColorTheme": "Solarized Light",
-    "workbench.preferredDarkColorTheme": "Monokai",
-    "workbench.colorTheme": "Solarized Light",
+    "workbench.preferredDarkColorTheme": "Solarized Dark",
+    "workbench.colorTheme": "Solarized Dark",
     "editor.inlineSuggest.enabled": true,
     "emeraldwalk.runonsave": {
       "shell" : "zsh",
@@ -111,6 +111,7 @@
       "plaintext": true,
       "markdown": false
     },
-    "redhat.telemetry.enabled": true,
-    "terminal.external.osxExec": "iTerm.app",
+    "redhat.telemetry.enabled": false,
+    "workbench.statusBar.visible": false,
+    // "terminal.external.osxExec": "iTerm.app",
 }

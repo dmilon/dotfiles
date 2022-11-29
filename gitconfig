@@ -49,6 +49,9 @@
 
   gcm = git commit -m
 
+  # pcb = "!f() { git add -N . && git merge-base master HEAD | xargs git diff --name-only | xargs -d '\n' pre-commit run $@ --files; }; f"
+  pcb = !git add -N . && git merge-base master HEAD | xargs git diff --name-only | xargs pre-commit run $@ --files
+
 [help]
 	autocorrect = 20
 

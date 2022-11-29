@@ -6,6 +6,7 @@ alias speedtest="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/m
 alias serve='ruby -run -e httpd . -p 8000' # Or python -m SimpleHTTPServer :)
 
 # List folder content
+alias ls='gls --color=auto' # for macOS, use GNU ls instead of BSD ls to access group-directories-first option
 alias ll='ls -hl --group-directories-first'
 alias la='ls -hA --group-directories-first'
 alias lla='ls -hlA --group-directories-first'
