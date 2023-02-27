@@ -3,44 +3,36 @@
   {
     "key": "ctrl+k",
     "command": "workbench.action.toggleActivityBarVisibility",
-    "when": "editorTextFocus"
+    "when": "!isMac"
   },
   {
     "key": "cmd+k",
     "command": "workbench.action.toggleActivityBarVisibility",
-    "when": "editorTextFocus"
+    "when": "isMac"
   },
   {
     "key": "ctrl+m",
     "command": "workbench.action.toggleStatusbarVisibility",
-    "when": "editorTextFocus"
+    "when": "!isMac && editorTextFocus",
   },
   {
     "key": "cmd+m",
     "command": "workbench.action.toggleStatusbarVisibility",
-    "when": "editorTextFocus"
+    "when": "isMac && editorTextFocus"
   },
   {
     "key": "ctrl+shift+v",
     "command": "pasteAndIndent.action",
-    "when": "editorTextFocus && !editorReadonly"
+    "when": "!isMac && editorTextFocus && !editorReadonly"
   },
   {
     "key": "cmd+shift+v",
     "command": "pasteAndIndent.action",
-    "when": "editorTextFocus && !editorReadonly"
+    "when": "isMac && editorTextFocus && !editorReadonly"
   },
   {
     "key": "shift+alt+0",
-    "command": "-workbench.action.toggleEditorGroupLayout"
-  },
-  {
-    "key": "shift+alt+3",
-    "command": "workbench.action.splitEditorUp"
-  },
-  {
-    "key": "shift+alt+2",
-    "command": "workbench.action.splitEditorRight"
+    "command": "workbench.action.toggleEditorGroupLayout"
   },
   {
     "key": "shift+alt+2",
@@ -49,5 +41,68 @@
   {
     "key": "shift+alt+0",
     "command": "workbench.action.editorLayoutSingle"
+  },
+  {
+    "key": "cmd+ctrl+m",
+    "command": "workbench.action.toggleMaximizedPanel",
+    "when": "isMac"
+  },
+  {
+    "key": "cmd+0",
+    "command": "-workbench.action.focusSideBar"
+  },
+  {
+    "key": "cmd+0",
+    "command": "workbench.action.zoomReset"
+  },
+  {
+    "key": "cmd+numpad0",
+    "command": "-workbench.action.zoomReset"
+  },
+  {
+    "key": "shift+cmd+left",
+    "command": "-cursorHomeSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+left",
+    "command": "-workbench.action.terminal.sendSequence",
+    "when": "terminalFocus && terminalShellType == 'pwsh'"
+  },
+  {
+    "key": "shift+cmd+left",
+    "command": "workbench.action.splitEditorLeft"
+  },
+  {
+    "key": "shift+alt+cmd+left",
+    "command": "-cursorColumnSelectLeft",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+up",
+    "command": "-workbench.action.terminal.selectToPreviousCommand",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "shift+cmd+up",
+    "command": "-cursorTopSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+up",
+    "command": "-list.collapseAll",
+    "when": "listFocus && !inputFocus"
+  },
+  {
+    "key": "shift+cmd+up",
+    "command": "workbench.action.splitEditorUp"
+  },
+  {
+    "key": "shift+cmd+down",
+    "command": "workbench.action.splitEditorDown"
+  },
+  {
+    "key": "shift+cmd+right",
+    "command": "workbench.action.splitEditorRight"
   }
 ]

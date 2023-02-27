@@ -73,3 +73,6 @@ export BUNDLER_EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+
+# Enable pry at Pennylane
+export PRY=1
