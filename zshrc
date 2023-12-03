@@ -76,3 +76,9 @@ export PYTHONBREAKPOINT=ipdb.set_trace
 
 # Enable pry at Pennylane
 export PRY=1
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+
+export PATH="/opt/homebrew/opt/grep/libexec/gnubin:$PATH"
+export PATH="/opt/homebrew/opt/findutils/libexec/gnubin:$PATH"
+export PATH="/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH"
+export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"

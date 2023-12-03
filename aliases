@@ -26,6 +26,7 @@ alias ss='spring stop'
 alias sq='sidekiq'
 alias wds='webpack-dev-server'
 alias ys='yarn start'
+alias yse='yarn start_esbuild'
 
 # Python data science
 alias py='python'

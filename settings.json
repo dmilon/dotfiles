@@ -132,5 +132,7 @@
     ],
     "explorer.confirmDragAndDrop": false,
     "liveshare.presence": false,
+    "git.confirmSync": false,
     "workbench.statusBar.visible": false,
+    "githubPullRequests.fileListLayout": "tree",
 }
