@@ -59,7 +59,7 @@
 
 [user]
 	email = 37899667+dmilon@users.noreply.github.com
-  name = Damien Milon
+	name = Damien Milon
 	signingkey = ~/.ssh/id_ed25519.pub
 
 # [pull]
