@@ -82,3 +82,10 @@ export PATH="/opt/homebrew/opt/grep/libexec/gnubin:$PATH"
 export PATH="/opt/homebrew/opt/findutils/libexec/gnubin:$PATH"
 export PATH="/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH"
 export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
+
+# Required for Docker posgres and redis
+source /Users/dmilon/code/pennylane-hq/jeancaisse/docker.env
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+
+PSQL_EDITOR="code --wait"

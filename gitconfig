@@ -51,9 +51,6 @@
 [help]
 	autocorrect = 20
 
-[push]
-	default = simple
-
 [branch "master"]
   mergeoptions = --no-edit
 
@@ -62,8 +59,6 @@
 	name = Damien Milon
 	signingkey = /Users/dmilon/.ssh/id_ed25519.pub
 
-# [pull]
-#   rebase = false
 [init]
 	defaultBranch = master
 [pull]
@@ -74,3 +69,11 @@
 	gpgsign = true
 [tag]
 	gpgsign = true
+[fetch]
+	prune = true
+	pruneTags = true
+	all = true
+[branch]
+	sort = -committerdate
+[diff]
+	algorithm = histogram

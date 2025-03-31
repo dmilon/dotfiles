@@ -19,12 +19,10 @@ alias firefox-dev='/opt/firefox-dev/firefox'
 alias jsl='jekyll serve --livereload'
 
 # Ruby on Rails web dev
+alias ra='rspec-auto'
 alias rcf='redis-cli FLUSHALL'
-alias sca='scalingo'
-alias srrc='scalingo run rails c'
 alias ss='spring stop'
 alias sq='sidekiq'
-alias wds='webpack-dev-server'
 alias ys='yarn start'
 alias yse='yarn start_esbuild'
 
@@ -37,6 +35,8 @@ alias jl='jupyter lab'
 alias gsw='git switch'
 alias gcm='git commit -m'
 alias gacm='git add --all && git commit -m'
+alias gmm='git merge master'
+alias gdm='git diff master'
 
 alias gitsweep='git checkout -q master && git for-each-ref refs/heads/ "--format=%(refname:short)" | while read branch; do mergeBase=$(git merge-base master $branch) && [[ $(git cherry master $(git commit-tree $(git rev-parse $branch^{tree}) -p $mergeBase -m _)) == "-"* ]] && git branch -D $branch; done'
 
@@ -48,3 +48,14 @@ alias gpc='gh pr create -w'
 # docker
 alias dps='docker ps'
 alias dc='docker-compose'
+
+# jeancaisse
+alias bp='bin/pull'
+
+spc() {
+    bin/rake db:sync_from_prod -- --company="107475,${1}"
+}
+
+spf() {
+    bin/rake db:sync_from_prod -- --firm="16324,${1}"
+}
