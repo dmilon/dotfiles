@@ -59,3 +59,23 @@ spc() {
 spf() {
     bin/rake db:sync_from_prod -- --firm="16324,${1}"
 }
+
+# reduce pdf size
+alias pdfreduce=gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dNOPAUSE -dBATCH -sOutputFile=output.pdf -dPDFSETTINGS=/printer -dColorImageResolution=150 chiens.pdf
+
+
+imgtojpg() {
+    setopt nullglob
+    local target="${1:-.}"
+    if [[ "$target" == "." ]]; then
+      local files=(*.HEIC *.PNG *.png *.jpg *.jpeg)
+    else
+      local files=("$target")
+    fi
+    for f in "${files[@]}"; do
+      [[ "$f" == *_shrinked* ]] && continue
+      out="${f%.*}_shrinked.jpg"
+      sips -s format jpeg -s formatOptions 60 -Z 2000 "$f" --out "$out"
+    done
+    unsetopt nullglob
+  }

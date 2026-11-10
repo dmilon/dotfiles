@@ -4,7 +4,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 
 # Useful oh-my-zsh plugins for Le Wagon bootcamps
-plugins=(asdf common-aliases git gitfast history-substring-search last-working-dir rails ruby sublime zsh-syntax-highlighting z)
+plugins=(asdf common-aliases git gitfast history-substring-search last-working-dir rake-fast rails ruby z zsh-syntax-highlighting)
 
 # Disable warning about insecure completion-dependent directories
 ZSH_DISABLE_COMPFIX=true
@@ -62,8 +62,7 @@ export PATH="./bin:./node_modules/.bin:${PATH}:/usr/local/sbin"
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
-export BUNDLER_EDITOR=code
-# export EDITOR=subl
+export BUNDLER_EDITOR=cursor
 
 # Disable spring
 # export DISABLE_SPRING=1
@@ -89,3 +88,9 @@ source /Users/dmilon/code/pennylane-hq/jeancaisse/docker.env
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 
 PSQL_EDITOR="code --wait"
+export PATH="$HOME/.local/bin:$PATH"
+
+alias ls='ls --color=auto'
+export PER_BRANCH_LOCAL_DATABASE_SETUP=1
+
+if command -v wt >/dev/null 2>&1; then eval "$(command wt config shell init zsh)"; fi

@@ -111,7 +111,7 @@
   "window.autoDetectColorScheme": true,
   "window.confirmBeforeClose": "always",
   "window.newWindowDimensions": "maximized",
-  "workbench.colorTheme": "Solarized Light",
+  "workbench.colorTheme": "Solarized Dark",
   "workbench.editor.focusRecentEditorAfterClose": false,
   "workbench.iconTheme": "vscode-great-icons",
   "workbench.panel.defaultLocation": "right",
@@ -124,4 +124,15 @@
   "workbench.statusBar.visible": false,
   "github.copilot.chat.codesearch.enabled": true,
   "github.copilot.nextEditSuggestions.enabled": true,
+  "chat.agent.enabled": true,
+  "json.schemaDownload.trustedDomains": {
+    "https://schemastore.azurewebsites.net/": true,
+    "https://raw.githubusercontent.com/microsoft/vscode/": true,
+    "https://raw.githubusercontent.com/devcontainers/spec/": true,
+    "https://www.schemastore.org/": true,
+    "https://json.schemastore.org/": true,
+    "https://json-schema.org/": true,
+    "https://developer.microsoft.com/json-schemas/": true,
+    "https://biomejs.dev": true
+  },
 }
